@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>个人中心</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="css/personalStyle.css" rel="stylesheet"> 
+  </head>
+  <body>
+    <svg height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position: absolute">
+        Generator: Sketch 3.0.3 (7891) - http://www.bohemiancoding.com/sketch
+        <g id="use">
+            <g transform="translate(1.000000, 1.000000)">
+                <path d="M11.564,9.004 C10.717,10.159 7.905,10.454 7.905,10.454 C7.905,10.454 5.029,10.17 4.182,9.028 C0.122,9.028 0,14.933 0,14.933 L15.808,14.933 C15.808,14.934 16.127,9.004 11.564,9.004 L11.564,9.004 Z"></path>
+                <path d="M10.818,3.02 C10.818,4.689 9.515,7.877 7.91,7.877 C6.303,7.877 5,4.689 5,3.02 C5,1.353 6.303,0 7.91,0 C9.515,0.001 10.818,1.353 10.818,3.02 L10.818,3.02 Z"></path>
+            </g>
+        </g>
+        <g id="mail">
+            <path d="M16.304,3.059 L1.701,3.059 C1.344,3.059 1.053,3.35 1.053,3.707 L1.053,12.324 C1.053,12.681 1.344,12.972 1.701,12.972 L16.304,12.972 C16.662,12.972 16.953,12.681 16.953,12.324 L16.953,3.707 C16.953,3.35 16.662,3.059 16.304,3.059 L16.304,3.059 Z M14.906,12.046 L12.022,8.643 L9.013,11.188 L5.955,8.57 L3.093,12.047 L1.847,12.047 L5.036,7.694 L1.966,5.094 L1.937,3.813 L9.013,9.344 L16.062,3.724 L16.062,5.094 L13.045,7.694 L16.169,12.032 L14.906,12.046 L14.906,12.046 Z"></path>
+        </g>
+        <g id="people">
+            <g transform="translate(0.000000, 3.000000)">
+                <path d="M9.855,7.053 C9.432,7.624 8.021,7.772 8.021,7.772 C8.021,7.772 6.58,7.63 6.156,7.066 C4.121,7.066 3.058,9.989 3.058,9.989 L12.984,9.989 C12.984,9.988 12.146,7.053 9.855,7.053 L9.855,7.053 Z"></path>
+                <path d="M9.943,2.918 C9.943,3.977 9.062,6 7.978,6 C6.89,6 6.011,3.977 6.011,2.918 C6.011,1.859 6.89,1 7.978,1 C9.062,1 9.943,1.859 9.943,2.918 L9.943,2.918 Z"></path>
+                <path d="M14.104,5.021 C13.733,5.596 12.577,5.902 12.577,5.902 C12.577,5.902 11.222,5.601 10.848,5.035 C10.848,5.035 10.836,5.699 10.271,6.471 C12.071,6.239 12.849,7.974 12.849,7.974 L15.98,7.98 C15.979,7.979 16.119,5.021 14.104,5.021 L14.104,5.021 Z"></path>
+                <path d="M13.99,1.533 C13.99,2.381 13.328,3.998 12.511,3.998 C11.691,3.998 11.03,2.381 11.03,1.533 C11.03,0.687 11.693,0 12.511,0 C13.328,0 13.99,0.688 13.99,1.533 L13.99,1.533 Z"></path>
+                <path d="M1.918,5.021 C2.296,5.592 3.467,5.896 3.467,5.896 C3.467,5.896 4.84,5.597 5.215,5.035 C5.215,5.035 5.229,5.695 5.801,6.461 C3.977,6.231 3.191,7.953 3.191,7.953 L0.021,7.958 C0.021,7.958 -0.122,5.021 1.918,5.021 L1.918,5.021 Z"></path>
+                <path d="M2.002,1.566 C2.002,2.394 2.666,3.977 3.481,3.977 C4.3,3.977 4.961,2.394 4.961,1.566 C4.961,0.737 4.299,0.065 3.481,0.065 C2.664,0.065 2.002,0.737 2.002,1.566 L2.002,1.566 Z"></path>
+            </g>
+        </g>
+    </svg>
+    <div class="background">
+      <img src="images/background.jpg" width="100%" height="100%">
+    </div>
+    <div id="wrapper">
+      <div id="left-side">
+      <ul>
+        <li class="choose active">
+        <div class="icon active">
+          <svg viewBox="0 0 17 16">
+          <g filter="">
+            <use xlink:href="#use"></use>
+          </g>          
+          </svg>
+        </div>
+        个人信息
+        </li>
+        <li class="mail">
+        <div class="icon">
+          <svg viewBox="0 0 17 16">
+          <g filter="">
+            <use xlink:href="#mail"></use>
+          </g>          
+          </svg>
+        </div>
+        消息列表
+        </li>
+        <li class="friends">
+        <div class="icon">
+          <svg viewBox="0 0 16 16">
+          <g filter="">
+            <use xlink:href="#people"></use>
+          </g>          
+          </svg>
+        </div>
+        好友列表
+        </li>
+      </ul>
+      </div>
+
+      <div id="border">
+      <div id="line" class="one"></div>
+      </div>
+
+      <div id="right-side">
+      <div id="first" class="active">
+        <div class="head-img">
+          <p class="photo_wrap">
+              <a href="javascript:void(0)" title="更换头像" id="img-upload">
+                <img src="images/2.png" class="photo" />
+              </a>
+          </p>
+        </div>
+        <form onsubmit="return false">
+          <div>
+            <ul>
+              <li>
+                <div class="sb-info">
+                    <p class="sbi-l">昵称：</p>
+                    <div class="sbi-m">
+                      <span><input class="user-id" type="text" name="uname" value="天涯"></span>
+                    </div>
+                </div>
+              </li>
+              <li>
+                <div class="sb-info">
+                  <p class="sbi-l">用户名：</p>
+                  <div class="sbi-m">
+                    <span id="IDName">id号</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="sb-info">
+                  <p class="sbi-l">我的签名：</p>
+                  <div class="sbi-m">
+                    <span><textarea rows="2" cols="50" class="my-sign">似水流年~</textarea></span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <input type="submit" id="save_message" class="sb-save" value="保存">
+        </form>
+      </div>
+      <div id="second">
+        <div class="sr-t">
+          <span class="tit-b"></span><span class="acc-sec">邀请信息</span>
+        </div>
+        <div class="mail-a" id="invite">          
+          <ul>
+            <li>
+              <span>Sky</span>
+            </li>
+            <li>
+              <p>邀请你进入房间观影</p>
+            </li>
+            <li>
+              <input type="button" value="拒绝" />
+            </li>
+            <li>
+              <input type="button" value="同意" />
+            </li>
+          </ul>
+        </div>
+        <div class="sr-d">
+          <span class="tit-b"></span><span class="acc-sec">好友信息</span>
+        </div>
+        <div class="mail-b" id="add">          
+          <ul>
+            <li>
+              <span>Sky1</span>
+            </li>
+            <li>
+              <p>邀请你进入房间观影</p>
+            </li>
+            <li>
+              <input type="button" value="拒绝" />
+            </li>
+            <li>
+              <input type="button" value="同意" />
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="third">
+        <h3>好友列表</h3>
+        <section class="friend_wrap">
+          <ul>
+            <li>
+              <img src="images/a1.png" />
+            </li>
+            <li>
+              <span>CV边江</span>
+            </li>
+            <li>
+              <label>删除好友
+                <input type="button">
+              </label>          
+            </li>
+          </ul>
+        </section>
+      </div>
+      </div>
+    </div>
+    <div>
+
+    <!--弹出层
+    <div class="img-content">
+      <div class="img-title">
+        <div class="title-name">
+          设置头像
+        </div>
+        <a href="#" class="close"></a>
+      </div>
+      <div class="img-all">
+        <div class="img-cut"></div>
+        <div class="spinner" style="display: none">Loading...</div>
+      </div>
+      <div class="img-show">
+        <img src="images/2.png" align="absmiddle" class="img-one">
+        <p>64px x 64px</p>
+        <img src="images/2.png" align="absmiddle" class="img-two">
+        <p>128px x 128px</p>
+        <img src="images/2.png" align="absmiddle" class="img-three">
+        <p>180px x 180px</p>
+      </div>
+      <a href="javascript:void(0)" class="get-img">
+          <label for="upload-file">选择图片</label>
+      </a>
+      <input type="file" class="" name="upload-file" id="upload-file" />
+      <input id="cut-img" type="button" value="裁剪图片">
+      <input id="set-img" type="button" value="设置头像">
+    </div>
+    -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/cropbox.js"></script>
+    <script src="js/personalScript.js"></script>
+  </body>
+</html>

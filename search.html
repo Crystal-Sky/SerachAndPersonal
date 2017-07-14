@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>搜索页面</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/searchStyle.css" rel="stylesheet"> 
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="background">
+      <img src="images/background2.jpg" width="100%" height="100%">
+    </div>
+    <div class="input-group search d2" id="search-box">
+      <div class="input-group-btn" id="select-box">
+        <select id="cd-dropdown" name="demo" class="cd-select">
+          <option value="-1" selected>电影</option>
+          <option value="1">电影</option>
+          <option value="2">好友</option>
+        </select>
+      </div>
+      <div class="in-box">
+        <input type="text" id="input-text" placeholder="搜索">
+        <a class="btn-img" id="post-btn"></a>
+      </div>
+    </div>
+    
+    <div class="all-show">
+      <div id="grid-gallery" class="grid-gallery">
+        <section class="grid-wrap">
+          <ul class="grid">
+            <li class="grid-sizer"></li>
+            <!-- for Masonry column width -->
+            <li>
+              <figure> 
+                <img src="images/thumb/37.png" />
+                <figcaption>
+                  <h3>夏目友人帐</h3>
+                  <p>简介：从小就能看见妖怪的少年夏目贵志。自从他从祖母玲子那里继承了与妖怪成为主从并将其名字书写在上的契约书“友人帐”以来……</p>
+                </figcaption>
+              </figure>
+            </li>            
+          </ul>
+        </section>
+        <section class="slideshow">
+          <ul></ul>
+        </section>
+      </div>
+      <div class="friend-show" id="friend">
+        <section class="friend-wrap">
+          <div>
+            <img src="images/a1.png" />
+          </div>
+          <div>
+            <span>CV边江</span>
+          </div>
+          <div>
+            <label>加为好友
+              <input type="button">
+            </label>          
+          </div>
+          <div class="clear"> </div>
+        </section>
+      </div>
+    </div>
+    
+    <!-- 加为好友 -->
+    <div class="add_friend" id="add_f">
+      <div class="add_title">
+        <div class="title-name">添加好友</div>
+        <a class="close"></a>
+      </div>
+      <div class="content">
+        <div class="content_title">
+          请输入验证信息：
+        </div>
+        <input class="add_mess" type="text" placeholder="我是...">
+      </div>
+      <div class="btn_group">
+        <input id="sent" type="button" value="发送">
+        <input id="close" type="button" value="关闭">
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script> 
+    <script src="js/masonry.pkgd.min.js"></script> 
+    <script src="js/cbpGridGallery.js"></script> 
+    <script type="text/javascript" src="js/jquery.dropdown.js"></script>
+    <script src="js/searchScript.js"></script>
+  </body>
+</html>
